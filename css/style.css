@@ -1,0 +1,67 @@
+@font-face {
+    font-family: special;
+    src: url(../font/specialelite-cyrillic.ttf);
+}
+@font-face {
+    font-family: might ;
+    src: url(../font/MightiestAutographPersonalUs.otf);
+}
+.main{
+    width: 800px;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    background: linear-gradient(#B0C4DE,#87CEEB,#1E90FF,#4169E1,#191970,#00008B);
+    height: 270px;
+}
+.header-text{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: special;
+    font-size: 2rem;
+    text-shadow: 1px 1px 2px #0000CD;
+    color: black;
+}
+.container{
+    display: flex;
+}
+.content{
+    padding: 0 20px;
+    width: 500px;
+    flex-grow: 1;
+}
+.left{
+    float: left;
+    padding-right: 10px;
+}
+.right{
+    float: right;
+    padding-left: 10px;
+}
+h2{
+    font-family: might;
+    font-size: 2rem;
+}
+aside{
+    background: #00008B;
+    align-self: start;
+    padding: 0 5px;
+}
+aside > ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.ul-pad{
+    text-align: left;
+   /* padding-left: 75%; */
+  }
+  .ad, .nav{
+    width: 150px;;
+  }
+  .cl{
+    display: flex;
+    flex-wrap: wrap;
+  }
